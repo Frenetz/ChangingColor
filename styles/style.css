@@ -1,4 +1,5 @@
 .container {
+  font-family: sans-serif;
   background-color: aqua;
   width: 100vw;
   height: 100vh;
@@ -12,8 +13,8 @@
 .color-container {
   display: flex;
   align-items: center;
-  font-family: sans-serif;
-  width: 500px;
+
+  width: 550px;
   height: 100px;
   background-color: rgb(25, 24, 24);
   color: antiquewhite;
@@ -28,4 +29,9 @@
   border-radius: 10px;
   width: 200px;
   height: 50px;
+}
+
+#current-color {
+  display: inline-block;
+  padding-left: 10px;
 }
