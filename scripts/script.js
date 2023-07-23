@@ -18,7 +18,6 @@ function changeColor() {
     : (rand3 = rand3.toString());
   field.style.backgroundColor = `#${rand1}${rand2}${rand3}`;
   text.textContent = ` #${rand1}${rand2}${rand3}`.toUpperCase();
-  console.log(rand1, rand2, rand3);
 }
 
 document.addEventListener("DOMContentLoaded", function () {
